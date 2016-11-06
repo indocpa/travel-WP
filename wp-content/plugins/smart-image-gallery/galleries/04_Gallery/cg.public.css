@@ -1,0 +1,18 @@
+.classic-gallery{ display: none;  position: relative; z-index: 0; }
+.classic-gallery ul li{ margin:0; padding:0; }
+.classic-gallery-viewer{ text-align: center; padding-bottom: 10px;}
+.classic-gallery-viewer span{  display:inline-block; height:100%; vertical-align:middle; }
+.classic-gallery figure{ display:inline-block; margin: 0; padding: 0;}
+.classic-gallery-viewer img{ max-width: 100%; max-height: 100%; vertical-align:middle;  }
+.classic-gallery-image{ text-align: center; position: relative; cursor:pointer; }
+.classic-gallery-image img{ max-width: none; max-height: none; }
+.classic-gallery-viewer figcaption,
+.classic-gallery-image figcaption{ font-style : italic; position: absolute; z-index: 9999; text-align: center; top:0; background: rgba( 0, 0, 0, 0.5 ); white-space: nowrap; overflow:hidden; text-shadow: 1px 1px 1px #000; color: #CFCFCF; text-overflow:ellipsis; display:none; }
+.classic-gallery-handle-next,
+.classic-gallery-handle-prev{ position:absolute; z-index: 99999; cursor: pointer; }
+.classic-gallery-prev{ background: url( prev.png ) no-repeat left center; width: 32px; height: 100%; min-height: 40px; }
+.classic-gallery-next{ background: url( next.png ) no-repeat right center; width: 32px; height: 100%; min-height: 40px; right:0px;}
+.classic-gallery-prev-top{ background: url( prev-top.png ) no-repeat center top; min-width: 40px; width:100%; height: 32px; top:0; }
+.classic-gallery-next-bottom{ background: url( next-bottom.png ) no-repeat center bottom; min-width: 40px; width:100%; height: 32px; bottom: 0px; }
+.classic-gallery-gobtn{ width: 15px; height: 15px; padding: 0; margin: 0 4px 5px 0; border-radius: 0;}
+.classic-gallery-gobtn:last-child{ margin-right: 0; }

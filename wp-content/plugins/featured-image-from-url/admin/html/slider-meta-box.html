@@ -1,0 +1,14 @@
+<!-- show URL field and preview button if URL was not provided yet -->
+
+<input disabled id="fifu_slider_input_url_<?php echo $i; ?>" 
+       type="text" 
+       name="fifu_slider_input_url_<?php echo $i; ?>" 
+       placeholder="URL" 
+       value="<?php echo $url[$i]; ?>"
+       style="<?php echo $width, $margin, $show_url[$i] ?>" />
+
+<a disabled id="fifu_slider_button_<?php echo $i; ?>" 
+   class="button"
+   onClick="sliderPreviewImage(<?php echo $i; ?>);" 
+   style="<?php echo $align, $margin, $show_button[$i] ?>" >Preview</a>
+

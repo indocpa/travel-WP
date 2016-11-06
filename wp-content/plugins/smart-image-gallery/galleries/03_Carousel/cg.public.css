@@ -1,0 +1,15 @@
+.carousel-gallery{ display: none; position: relative; z-index: 0;}
+.carousel-gallery-image{ text-align: center; position: relative; }
+.carousel-gallery-image img{ max-width: none; max-height: none; }
+.carousel-gallery-image figcaption{ font-style: italic; position: absolute; z-index: 9999; text-align: center; top:0; background: rgba( 0, 0, 0, 0.5 ); white-space: nowrap; overflow:hidden; text-shadow: 1px 1px 1px #000; color: #CFCFCF; text-overflow: ellipsis; display: none; }
+.carousel-gallery-handle-next,
+.carousel-gallery-handle-prev{ position: absolute; z-index: 99999; cursor: pointer; }
+.carousel-gallery-prev{ background: url( prev.png ) no-repeat left center; width: 32px; height: 100%; min-height: 40px; }
+.carousel-gallery-next{ background: url( next.png ) no-repeat right center; width: 32px; height: 100%; min-height: 40px; right:0px;}
+.carousel-gallery-prev-top{ background: url( prev-top.png ) no-repeat center top; min-width: 40px; width:100%; height: 32px; top:0; }
+.carousel-gallery-next-bottom{ background: url( next-bottom.png ) no-repeat center bottom; min-width: 40px; width:100%; height: 32px; bottom: 0px; }
+.carousel-gallery-gobtn:active,
+.carousel-gallery-gobtn:focus,
+.carousel-gallery-gobtn:hover,
+.carousel-gallery-gobtn{ width: 15px !important; height: 15px !important; padding: 0 !important; margin: 0 4px 5px 0 !important; border-radius: 0;border:0;}
+.carousel-gallery-gobtn:last-child{ margin-right: 0 !important; }

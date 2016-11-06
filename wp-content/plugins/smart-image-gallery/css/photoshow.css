@@ -1,0 +1,18 @@
+.photoshow{
+	overflow:hidden;
+}
+.hidden{
+	display:none;
+}
+
+.show{
+	margin-left:auto;
+	margin-right:auto;
+}
+.loading{
+	background-image:url(loading.gif);
+	width:25px;
+	height:25px;
+	z-index:10;
+	position:absolute;
+}

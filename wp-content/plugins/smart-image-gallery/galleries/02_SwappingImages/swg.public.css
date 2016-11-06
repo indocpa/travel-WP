@@ -1,0 +1,6 @@
+.swapping-gallery{ text-align : center; }
+.swapping-gallery-image{}
+.swapping-gallery-image img{ max-height : 100%; max-width: 100%; }
+.swapping-gallery-image figcaption{ font-style : italic; }
+.swapping-gallery-image .swapping-gallery-image-title{}
+.swapping-gallery-image .swapping-gallery-image-author{ color : #AAA; }

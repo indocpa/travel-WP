@@ -1,0 +1,23 @@
+{
+  "name": "wecodepixels/theia-post-slider",
+  "description": "Transform your multi-page posts into slideshows.",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "slider"
+  ],
+  "homepage": "http://wecodepixels.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "WeCodePixels",
+      "email": "contact@wecodepixels.com",
+      "homepage": "http://wecodepixels.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.2",
+    "composer/installers": "~1.0.0"
+  }
+}

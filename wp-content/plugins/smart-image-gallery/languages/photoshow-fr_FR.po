@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Photoshow\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-11 14:34-0500\n"
+"PO-Revision-Date: 2012-06-11 14:37-0500\n"
+"Last-Translator: Erick Olivera <olivera.erick@gmail.com>\n"
+"Language-Team: CodePeople <onlinesupport@hotdreamweaver.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: d:\\02_www\\www.wp.com\\wp-content\\plugins\\photoshow\\\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: d:\\02_www\\www.wp.com\\wp-content\\plugins\\photoshow\n"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:28
+msgid "Settings"
+msgstr "Configuration"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:41
+msgid "Settings Updated"
+msgstr "Configuration mise à jour"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:43
+msgid "The Flickr API Key is required"
+msgstr "La clé API Flickr est obligatoire"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:69
+msgid "Enter the Flickr API Key"
+msgstr "Entrez la clé API Flickr"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:77
+msgid "The next options are only available for the advanced version of Photoshow"
+msgstr "Les options suivantes sont disponibles uniquement pour la version avancée de Photoshow"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:78
+msgid "Save in cache(optional)"
+msgstr "Enregistrer dans la mémoire cache (facultatif)"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:83
+msgid "Save results in cache"
+msgstr "Enregister les résultats dans la mémoire cache"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:86
+msgid "No"
+msgstr "Non"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:88
+msgid "Expires in a day"
+msgstr "Expire en un jour"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:89
+msgid "Expires in a month"
+msgstr "Expire en un mois"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:90
+msgid "Expires in a year"
+msgstr "Expire en un an"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:91
+msgid "Never expires"
+msgstr "N'expire jamais"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:96
+msgid "Visual effects(optional)"
+msgstr "Effets visuels (facultatif)"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:101
+msgid "Replace the images using the effect"
+msgstr "Remplacer les images en utilisant l'effet visuel"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:114
+msgid "Proxy definition(optional)"
+msgstr "Définition du proxy (facultatif)"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:115
+msgid "Fill the Proxy data only if your website is behind a Proxy"
+msgstr "Remplir les données du Proxy uniquement si votre site est derrière un Proxy"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:120
+msgid "Proxy host"
+msgstr "Le serveur Proxy"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:128
+msgid "Proxy port"
+msgstr "La porte Proxy"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:136
+msgid "Proxy username"
+msgstr "Le nom d'utilisateur Proxy"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:144
+msgid "Proxy password"
+msgstr "Le mot de passe Proxy"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:153
+msgid "Update Settings"
+msgstr "Mettre à jour la configuration"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:172
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:202
+msgid "Insert Flickr Image"
+msgstr "Insérer une image Flickr"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:203
+msgid "Width"
+msgstr "Largeur"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:204
+msgid "Height"
+msgstr "Hauteur"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:205
+msgid "Terms"
+msgstr "Termes"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:206
+msgid "Number of Images"
+msgstr "Nombre d'images"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:207
+msgid "Load Images every"
+msgstr "Charger les images chaque"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:208
+msgid "seconds"
+msgstr "secondes"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:209
+msgid "by default"
+msgstr "par défaut"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:210
+msgid "The * symbol marks the required fields"
+msgstr "Le symbole * indique les champs obligatoires"
+
+#: d:\02_www\www.wp.com\wp-content\plugins\photoshow/php/photoshow.clss.php:211
+msgid "Insert"
+msgstr "Insérer"
+

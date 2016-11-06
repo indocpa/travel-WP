@@ -1,0 +1,288 @@
+<style><?php include 'css/menu.css' ?></style>
+
+<script><?php include 'js/menu.js' ?></script>
+
+<div class="wrap">
+
+    <div class="box">
+
+        <h2>Help</h2>
+
+        <div class="greybox">
+
+            <p>Featured Image From URL plugin allows you to use an external image (from anywhere) as Featured Image of your Post, Page or Custom Post Type, such as WooCommerce Product. For WooCommerce users, it's also possible to use external images in the Product Category and Product Gallery. All included content still has social tags to facilitate sharing on social networks. And it's compatible with WP All Import and Sirv plugins. For more information, refer to <a href="https://wordpress.org/plugins/featured-image-from-url/faq/" target="_blank">FAQ</a> and <a href="https://wordpress.org/plugins/featured-image-from-url/screenshots/" target="_blank">screenshots</a>. </p>
+
+        </div>
+
+    </div>
+
+    <div class="box">
+
+        <h2>Premium Version</h2>
+
+        <div class="greybox">
+
+            <p>All functionalities created for external images are now available for <b>external videos</b> (from YouTube), everything in one plugin. You can still apply your <b>CSS style</b> or <b>18 hover effects</b> to the images and use a <b>slider of images</b> as featured image. Supports the <b>last WooCommerce version</b>. Click <a href="http://marceljm.com/wordpress/featured-image-from-url-premium/" targe="_blank">here</a> to know more. Or you can have a <a href="http://fifu.marceljm.com/" targe="_blank">Live Preview</a>.<p/>
+
+            <iframe src="https://www.youtube.com/embed/LuynS-Y-fZs" height="402" width="715" allowfullscreen="" frameborder="0"></iframe>
+
+        </div>
+
+    </div>
+
+    <div class="box">
+
+        <h2>Make a Donation and Receive the Premium Version</h2>
+
+        <div class="greybox">
+            <div style="display:inline-block;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="8BLDLZ3HDBGQG">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG_global.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </div>
+
+            <div style="display:inline-block;top:-20px;position:relative">
+                <p>(US$ 15 or more, please) and receive the Premium Version by email within 12 hours.<p/>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="box">
+
+        <h2>WooCommerce Full Integration and Compatibility</h2>
+
+        <div class="greybox">
+
+            <p>Would you like to integrate WooCommerce to Featured Image From URL? For that, a script will be executed to overwrite some lines of code from WooCommerce plugin. It's safe and reversible but it will only work if your site is hosted on a Linux server. So let me check...</p>
+
+            <p/>
+
+            <?php echo $compatible; ?>
+
+            <p/>
+
+            <p>This free version supports WooCommerce 2.4.X and 2.5.X. If you use 2.6.X and later, you will need <b>Premium version</b>.</p>	
+
+        </div>
+
+        <p/>
+
+        <form 
+            id="fifu_form_woocommerce" 
+            action="javascript:void(0)" 
+            method="post">
+
+            <input 
+                type="image" 
+                href="javascript:void(0)" 
+                id="fifu_toggle_woocommerce" 
+                onclick="invert('woocommerce')" 
+                name="fifu_toggle_woocommerce" 
+                class="<?php echo $enable_woocommerce; ?>" 
+                value=" "
+                style="<?php echo $show_woocommerce_button; ?>">
+
+            <input 
+                type="hidden" 
+                id="fifu_input_woocommerce" 
+                name="fifu_input_woocommerce" 
+                value="" >
+        </form>
+
+    </div>
+
+    <div class="box">
+
+        <h2>Custom Post Types</h2>
+
+        <div class="greybox">
+
+            <p>Featured Image from URL is preconfigured to work with only one Custom Post Type (WooCommerce Product). But you also can use this plugin with other ones. For that, you just need to know the correct Custom Post Type names and fill the fields below. Please, let me know if you need more than 5 inputs here.</p>
+
+        </div>
+
+        <p/>
+
+        <form 
+            id="fifu_form_cpt" 
+            action="javascript:void(0)" 
+            method="post">
+
+            <input id="fifu_input_cpt0" type="text" name="fifu_input_cpt0" style="width:130px" value="<?php echo $array_cpt[0]; ?>">
+            <input id="fifu_input_cpt1" type="text" name="fifu_input_cpt1" style="width:130px" value="<?php echo $array_cpt[1]; ?>">
+            <input id="fifu_input_cpt2" type="text" name="fifu_input_cpt2" style="width:130px" value="<?php echo $array_cpt[2]; ?>">
+            <input id="fifu_input_cpt3" type="text" name="fifu_input_cpt3" style="width:130px" value="<?php echo $array_cpt[3]; ?>">
+            <input id="fifu_input_cpt4" type="text" name="fifu_input_cpt4" style="width:130px" value="<?php echo $array_cpt[4]; ?>">
+
+            <input type="submit" value="Submit" >
+        </form>
+
+    </div>
+
+    <div class="box">
+
+        <h2>CSS Style</h2>
+
+        <div class="greybox">
+
+            <p>Here you can define a CSS style to be applied to all external featured images. However, this feature is only available in <b>Featured Image From URL Premium</b>. Usage example:</p>
+
+            <p>width: 100%; border-radius: 8px; border: 1px solid #ddd; padding: 5px;</p>
+
+        </div>
+
+        <p/>
+
+        <input id="fifu_input_css" type="text" name="fifu_input_css" style="width:675px" disabled>
+
+        <input type="submit" value="Submit" disabled>
+
+    </div>
+
+    <div class="box">
+
+        <h2>Featured Image in Content</h2>
+
+        <div class="greybox">
+
+            <p>It will sound crazy, but some themes don't show the Featured Image on the posts or pages. If it is your case and you would like to show the Featured Image there, just enable the toggle. The Featured Image will appear at the beginning of the content, before the text.</p>
+
+        </div>
+
+        <p/>
+
+        <form 
+            id="fifu_form_content" 
+            action="javascript:void(0)" 
+            method="post">
+
+            <input 
+                type="image" 
+                href="javascript:void(0)" 
+                id="fifu_toggle_content" 
+                onclick="invert('content')" 
+                name="fifu_toggle_content" 
+                class="<?php echo $enable_content; ?>" 
+                value=" "
+                style="<?php echo $show_content_button; ?>">
+
+            <input 
+                type="hidden" 
+                id="fifu_input_content" 
+                name="fifu_input_content" 
+                value="" >
+        </form>
+
+    </div>
+
+    <div class="box">
+
+        <h2>Hover Effects</h2>
+
+        <div class="greybox">
+
+            <p>Make your front page cool! Choose a hover effect in the plugin settings to be applied to all external featured images of your posts on your main page. <b>Featured Image From URL Premium</b> has 18 hover effects available. <a href="http://marceljm.com/wordpress/featured-image-from-url-premium#hover" targe="_blank">Check it out</a>.<p/>
+
+            <select id="select_hover" style="width:100%">
+                <option value=""></option>
+                <option value="hover17">315 Degrees</option>
+                <option value="hover02">360 Degrees</option>
+                <option value="hover07">Blur</option>
+                <option value="hover10">Blur Gray Scale</option>
+                <option value="hover04">Brighten</option>
+                <option value="hover15">Circle</option>
+                <option value="hover13">Flashing</option>
+                <option value="hover08">Gray Scale</option>
+                <option value="hover16">Horizontal Rotation</option>
+                <option value="hover12">Opacity Color</option>
+                <option value="hover11">Opacity White</option>
+                <option value="hover18">Rainbow</option>
+                <option value="hover06">Rotate</option>
+                <option value="hover09">Sepia</option>
+                <option value="hover14">Shine</option>
+                <option value="hover05">Vertical Rotation</option>
+                <option value="hover01">Zoom In</option>
+                <option value="hover03">Zoom Out</option>
+            </select>
+
+        </div>
+
+    </div>
+
+    <div class="box">
+
+        <h2>"This Plugin Doesn't Work, Man!"</h2>
+
+        <div class="greybox">
+
+            <p>If the external featured images of your posts or pages aren't being shown, congratulations: you're using a nonstandard theme! But there is a last hope. Enabling the toggle below, your external featured images will be associated to a symbolic file in your Media Library. It's a desperate attempt to cheat your theme that will think that there is an internal image there. Then when the theme tries to show the image, that doesn't exist, a function will replace the symbolic file by your URL on execution time. It should allow you to use the main feature of this plugin, but secondary ones, such as "External Featured Image Slider" may not work.</p>
+
+        </div>
+
+        <p/>
+
+        <form 
+            id="fifu_form_hope" 
+            action="javascript:void(0)" 
+            method="post">
+
+            <input 
+                type="image" 
+                href="javascript:void(0)" 
+                id="fifu_toggle_hope" 
+                onclick="invert('hope')" 
+                name="fifu_toggle_hope" 
+                class="<?php echo $enable_hope; ?>" 
+                value=" " 
+                style="display:block" >
+
+            <input 
+                type="hidden" 
+                id="fifu_input_hope" 
+                name="fifu_input_hope" 
+                value="" >
+        </form>
+
+    </div>
+
+    <div class="box">
+
+        <h2>Give This Plugin a 5-Star Rating</h2>
+
+        <div class="greybox">
+
+            <p>Do you really love Featured Image From URL? So give this plugin a 5-star <a href="https://wordpress.org/support/view/plugin-reviews/featured-image-from-url?filter=5" target="_blank">rating</a>.
+
+        </div>
+
+    </div>
+
+    <div class="box">
+
+        <h2>Report a Bug or Suggest an Improvement</h2>
+
+        <div class="greybox">
+
+            <p>Bug reports and suggestions for improvement are always welcome. Just send an email to <a href="mailto:marceljmachado@gmail.com">marceljmachado@gmail.com</a> and your request can be available in the next release.</p>
+
+        </div>
+
+    </div>
+
+    <div class="box">
+
+        <h2>About The Author</h2>
+
+        <div class="greybox">
+
+            <p>Hi! I'm Marcel Jacques Machado. Graduated in Computer Science, I work as a Software Engineer for almost a decade. I already worked with C, Python, Delphi, Shell Script and other programming languages and technologies. Nowadays, I develop web applications for Telefonica in Brazil using Java. About PHP, this plugin, Featured Image From URL, is my first pratical experience. I also have a <a href="http://marceljm.com/" target="_blank">blog</a> in WordPress and I expect to post some useful content very soon.
+
+        </div>
+
+    </div>
+
+</div>
